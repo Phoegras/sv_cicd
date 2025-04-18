@@ -11,7 +11,7 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/Phoegras/sv_cicd.git'
         BRANCH_NAME = "${params.BRANCH_NAME}"
-        IMAGE_NAME = 'ntquan87/nodejs-app-ci-cd/dthao'
+        IMAGE_NAME = 'ntquan87/dthao'
     }
 
 
